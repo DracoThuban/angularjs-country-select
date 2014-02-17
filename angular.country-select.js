@@ -745,6 +745,7 @@ angular.module('countrySelect', [])
                 replace: true,
                 link: function(scope, elem, attrs) {
                     if ( !! attrs.ngModel) {
+                        scope.countries = countries;
                         var assignCountry = $parse(attrs.ngModel).assign;
 
                         elem.bind('change', function(e) {
