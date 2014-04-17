@@ -1,7 +1,9 @@
 {
     "name": "Angular.country-select",
     "version": "14.04.17",
-    "main": [
-        "angular.country-select.js"
+    "main": "angular.country-select.js",
+    "ignore": [
+        "LICENSE",
+        "README.md"
     ]
 }
